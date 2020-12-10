@@ -1,0 +1,47 @@
+body {
+  color: rgb(135, 135, 135);
+  font-family: arial, sans-serif;
+}
+h1 {
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin: 0;
+}
+ul {
+  margin: 0 0 20px;
+  padding: 0;
+}
+li {
+  font-size: 16px;
+  font-weight: 100;
+  height: auto;
+  line-height: 1;
+  text-align: left;
+  list-style: none;
+}
+.weather-app {
+  border: 1px solid #dadde1;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 10px;
+}
+.temperature {
+  color: rgb(32, 33, 36);
+  font-size: 64px;
+  font-weight: 400;
+  height: auto;
+  line-height: 1;
+}
+.fa-cloud {
+  height: 64px;
+  width: 64px;
+  display: inline-block;
+  font-size: 52px;
+}
+.degrees {
+  position: relative;
+  top: -34px;
+  color: black;
+}
