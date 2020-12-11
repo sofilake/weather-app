@@ -45,6 +45,9 @@ li {
   top: -34px;
   color: black;
 }
-.github {
+.github-link {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
   display: block;
 }
