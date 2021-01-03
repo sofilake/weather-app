@@ -24,6 +24,7 @@
           <div class="col-3">
             <input type="submit" value="Search" class="form-control btn btn-primary shadow-sm w-100" />
           </div>
+
           <div class="col-3">
             <button class="btn btn-success w-100" id="current-location-button">
               Current
@@ -31,17 +32,21 @@
           </div>
         </div>
       </form>
+
       <h1 id="city"></h1>
       <ul>
         <li id="date"></li>
         <li id="description"></li>
       </ul>
+
       <div class="row">
         <div class="col-6">
-          <div class="float-left">
+        <div class="cleatfix weather-temperature">
+          <img src=""alt="Clear" id="icon" class="weather__icon weather__icon--today"/>
+         <div class="float-left">
             <span class="temperature" id="temperature"></span>
-            <span class="units">ºC | <a href="#">ºF</a>
-            </span>
+            <span class="units">ºC | <a href="#">ºF</a></span>
+          </div>
           </div>
         </div>
         <div class="col-6">

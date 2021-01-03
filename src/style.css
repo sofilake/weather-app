@@ -27,6 +27,15 @@ li {
   max-width: 600px;
   border-radius: 5px;
 }
+.weather__icon {
+  float: left;
+}
+
+.weather__icon--today {
+  float: left;
+  height: 64px;
+  width: 64px;
+}
 .temperature {
   color: rgb(32, 33, 36);
   font-size: 64px;
